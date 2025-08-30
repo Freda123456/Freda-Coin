@@ -1,4 +1,11 @@
 [package]
+<<<<<<< HEAD
+name = "fredacoin"
+edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+# license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
+# authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
+
+[package]
 name = "fredacoin"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
@@ -20,11 +27,6 @@ edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 [addresses]
 fredacoin = "0x0"
 
-# Named addresses will be accessible in Move as `@name`. They're also exported:
-# for example, `std = "0x1"` is exported by the Standard Library.
-# alice = "0xA11CE"
-
-[dev-dependencies]
 # The dev-dependencies section allows overriding dependencies for `--test` and
 # `--dev` modes. You can introduce test-only dependencies here.
 # Local = { local = "../path/to/dev-build" }
